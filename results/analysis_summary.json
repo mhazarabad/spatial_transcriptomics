@@ -1,0 +1,15 @@
+{
+  "input_file": "data/visium_hne_subset.h5ad",
+  "spots_qc": 1940,
+  "genes_qc": 3000,
+  "clusters": 6,
+  "cluster_distribution": {
+    "1": 692,
+    "4": 456,
+    "5": 267,
+    "3": 219,
+    "0": 206,
+    "2": 100
+  },
+  "adjusted_rand_index": 0.23309956588287356
+}
