@@ -11,8 +11,6 @@ In this project, the goal is to show that I can take an actual public dataset, r
 - **Marker discovery**: I reimplemented Wilcoxon rank-sum markers on the raw (log-normalized) expression values so the log fold-changes are interpretable.
 - **Benchmarking**: The script calculates an Adjusted Rand Index (ARI) against the vendor’s Leiden clusters (my ARI = **0.233**, which is reasonable given I only used 40 genes and a simple k-means model).
 
-All plots and tables land in the `results/` folder with an `analysis_summary.json` that logs the run metadata.
-
 ## Methods
 
 **Normalization**: Log-transformation after library size normalization
